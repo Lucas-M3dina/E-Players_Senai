@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+
+/* HEADER */
+
+.header_principal{
+    background-color: #1E1C21;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.logo{
+    /* width: 339px; */
+    padding: 20px 0;
+}
+
+.menu_header{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+}
+
+.menu_header ul{
+    display: flex;
+    justify-content: space-between;
+    width: 73%;
+}
+
+.menu_header ul li{
+    display: flex;
+    align-items: center;
+}
+
+.menu_header ul li a{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* FIM DO HEADER */
+
+
+
+/* PRIMEIRO BANNER */
+
+.banner_principal{
+    background: linear-gradient(90deg, #1949DE 3.13%, #000000 67.19%, #050F2D 99.98%, #000000 99.99%, #000000 100%);
+    height: 32em;
+}
+
+.container_banner{
+    width: 90%;
+    margin: 0 auto;   
+    display: flex;
+}
+
+.imagem_banner{
+    width: 33em;
+    padding: 21px 0;
+}
+
+.textos_banner_principal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: auto;
+    margin-top: 9%;
+    
+}
+
+.textos_banner_principal h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 58px;
+    /* width: 80%; */
+    height: 74px;
+}
+
+.textos_banner_principal span{
+    font-size: 21px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+
+}
+
+.textos_banner_principal a{ 
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+    background-color: #1949DE;
+    text-transform: uppercase;
+    font-size: 25px;
+    width: auto;
+    padding: 11px 39px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+/* FIM DO PRIMEIRO BANNER */
+
+
+
+/* SESSÃO COM LOGOS */
+
+.jogos{
+    background-color: #1E1C21;
+}
+
+.logos{
+    padding: 18px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f1rs{
+    height: 45px;
+}
+
+.lol{
+    height: 69px;
+}
+
+.vava{
+    height: 37px;
+    margin-top: 14px;
+}
+
+.fifa{
+    height: 38px;
+    margin-left: 17px;
+    margin-top: 12px;
+}
+
+/* FIM DA SESSÃO COM JOGOS */
+
+
