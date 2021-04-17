@@ -21,6 +21,8 @@
     width: 80%;
     margin: 0 auto;
     display: flex;
+    align-items: center;
+    height: 87px;
 }
 
 .logo{
@@ -32,6 +34,7 @@
     display: flex;
     justify-content: flex-end;
     width: 80%;
+    height: 100%;
 }
 
 .menu_header ul{
@@ -50,6 +53,16 @@
     font-family: 'Roboto', sans-serif;
     color: #fff;
     font-size: 18px;
+    height: 100%;
+    display: flex;
+    align-items: center;;
+}
+
+.menu_header ul li a:hover{
+    background-color: #D2D2D2;
+    color: #1E1C21;
+    padding: 0 8px;
+    font-weight: 700;
 }
 
 /* FIM DO HEADER */
