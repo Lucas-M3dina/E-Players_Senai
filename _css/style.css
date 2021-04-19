@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 *{
     margin: 0;
@@ -270,6 +270,7 @@
 .sk{
     margin: 0 8px;
     font-family: 'Titillium Web', sans-serif;
+    width: 46px;
 }
 
 .vs{
@@ -283,11 +284,186 @@
     color:#fff;
     border-left: #fff solid 2px;
     width: 3.1em;
-    margin-left: 3.2em;
+    margin-left: 1.2em;
     margin-right: 2.3em;
     padding-left: 1em;
 } 
 
 .margin_proximos_jogos{
     margin-left: 2em;
+}
+
+
+
+/* INICIO NOVAS NOTICIAS */
+
+.noticias{
+    background-color: #1E1C21;
+    
+}
+
+.noticias h2{
+    color: #fff;
+    padding-top: 1em;
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container_sidebar_noticia{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 56em;
+}
+
+.container_noticia{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1.8em;
+    }
+
+
+.fundo_noticia{
+    display: flex;
+    flex-direction: column;
+    width: 14em;
+    height: 24em;
+    background: linear-gradient(180deg, #2F2F2F 41.67%, #020202 100%);
+    box-shadow: 0px 0px 12px 15px rgba(0, 0, 0, 0.25);
+}
+
+.fundo_noticia h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.fundo_noticia p{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    padding: 0 11px;
+    
+}
+
+.sidebar_proximos_jogos{
+    background-color: #1E1C21;
+    width: 29%;
+    margin-left: 2em;
+}
+
+.container_proximos{
+    
+    
+}
+
+.container_proximos h2{
+    margin-bottom: 1em;
+    margin-top: -2.33em;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.sidebar_fundo{
+    background: linear-gradient(180deg, #020202 0%, #2F2F2F 46.88%, #020202 100%);
+    box-shadow: 0px 4px 12px 15px rgba(0, 0, 0, 0.25);
+   
+}
+
+.sidebar_alinhando{
+    height: 51.12em;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    height: 51.12em;
+}
+
+.jogos_sidebar{
+    display: flex;
+    align-items: center;
+}
+
+.jogos_sidebar p{
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.sidebar_time{
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* FIM NOVAS NOTICIAS */
+
+
+
+/* INICIO DO FOOTER */
+
+footer{
+    background-color: #000;
+}
+
+.flex_footer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+
+}
+
+.style_list{
+    
+}
+
+.style_list h2{
+    color: #fff; 
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;   
+}
+
+/* .style_list ul{
+    list-style: disc !important;
+} */
+
+.style_list ul li a{
+    color: #fff; 
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.logo_footer{
+    width: 29em;
+}
+
+.redes_sociais_creditos_footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.redes_sociais_creditos_footer p{
+    color: #fff; 
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    margin-top: 0.6em;
+}
+
+.redes_sociais_creditos_footer span{
+    color: #fff; 
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 3.3em;
+}
+
+.logos_redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
