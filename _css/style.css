@@ -440,8 +440,44 @@ footer{
     font-family: 'Titillium Web', sans-serif;
 }
 
+.mid_footer{
+    display: flex;
+    flex-direction: column;
+}
+
 .logo_footer{
     width: 29em;
+}
+
+.mid_footer p{
+    color: #fff; 
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+.mid_footer form{
+    display: flex;
+    margin: 0 auto;
+}
+
+.input_email{
+    background-color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    padding: 0 14px;
+    text-align: center;
+    border: 0;
+}
+
+.input_submit{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    border: 0;
+    padding: 4px;
+    background-color: #13169f;
+    color: #fff;
 }
 
 .redes_sociais_creditos_footer{
@@ -459,7 +495,7 @@ footer{
 .redes_sociais_creditos_footer span{
     color: #fff; 
     font-family: 'Titillium Web', sans-serif;
-    margin-top: 3.3em;
+    margin-top: 3em;
 }
 
 .logos_redes{
