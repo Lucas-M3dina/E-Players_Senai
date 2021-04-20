@@ -357,12 +357,21 @@
     text-align: center;
 }
 
+.sublinhado:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
 .fundo_noticia a p{
     font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
     color: #fff;
     padding: 0 11px;
     
+}
+
+.fundo_noticia a p:hover {
+    text-decoration: underline;
 }
 
 .sidebar_proximos_jogos{
