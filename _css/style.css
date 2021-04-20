@@ -370,9 +370,10 @@
     
 }
 
-.fundo_noticia:hover {
+.fundo_noticia *:hover {
     text-decoration: underline;
     color: #fff;
+    text-decoration-color: #fff;
 }
 
 .sidebar_proximos_jogos{
