@@ -60,12 +60,12 @@
     height: 100%;
     display: flex;
     align-items: center;;
+    padding: 0 8px;
 }
 
 .menu_header ul li a:hover{
     background-color: #D2D2D2;
     color: #1E1C21;
-    padding: 0 8px;
     font-weight: 700;
 }
 
