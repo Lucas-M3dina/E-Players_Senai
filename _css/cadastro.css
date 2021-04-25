@@ -62,11 +62,11 @@
 }
 
 .conteudo_cadastro_jogador{
-    width: 31%;
+    width: 26em;
     display: flex;
     flex-direction: column; 
     margin: 0 auto;
-    padding-top: 8%;
+    padding-top: 6em;
     justify-content: space-between;
     height: 84%;
 }
@@ -232,11 +232,11 @@ footer{
 }
 
 .logo_footer{
-    width: 29em;
+    width: 27em;
 }
 
 .logo_footer:hover {
-    width: 30em;
+    width: 28em;
 }
 
 .mid_footer p{

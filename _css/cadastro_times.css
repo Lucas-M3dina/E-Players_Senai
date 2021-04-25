@@ -65,10 +65,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 28%;
+    width: 25em;
     margin: 0 auto;
     align-items: center;
-    padding-top: 11%;
+    padding-top: 8em;
     height: 65%;
 }
 
@@ -235,11 +235,11 @@ footer{
 }
 
 .logo_footer{
-    width: 29em;
+    width: 27em;
 }
 
 .logo_footer:hover {
-    width: 30em;
+    width: 28em;
 }
 
 .mid_footer p{

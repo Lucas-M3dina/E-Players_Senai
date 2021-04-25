@@ -98,7 +98,7 @@
     align-items: center;
     height: auto;
     margin-top: 9%;
-    
+    min-width: 396px;
 }
 
 .textos_banner_principal h1{
@@ -236,7 +236,7 @@
 .personagem{
     width: 75%;
     height: 116%;
-    margin-top: -17px;
+    min-width: 297px;
 }
 
 /* FIM DO SEGUNDO BANNER */
@@ -333,6 +333,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 1.8em;
+    min-width: 718px;
     }
 
 
@@ -383,8 +384,7 @@
 }
 
 .container_proximos{
-    
-    
+    min-width: 259px;
 }
 
 .container_proximos h2{
@@ -474,11 +474,11 @@ footer{
 }
 
 .logo_footer{
-    width: 29em;
+    width: 27em;
 }
 
 .logo_footer:hover {
-    width: 30em;
+    width: 28em;
 }
 
 .mid_footer p{
