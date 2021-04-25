@@ -179,14 +179,15 @@
 }
 
 .container_lista_jogadores table tr th{
-    padding: 1% 0;
+    padding: 0.5em 0.4em;
     color: #fff;
     font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
+    border-bottom: #fff solid 2px;
 }
 
 .container_lista_jogadores table tr td{
-    padding: 1% 0;
+    padding: 1em 0;
     color: #fff;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -303,3 +304,94 @@ footer{
 }
 
 /* FIM DO FOOTER */
+
+
+
+@media (max-width: 420px){
+
+    /* HEADER */
+
+    .flecha_header{
+        display: none;
+    }    
+
+    .container_header{
+        justify-content: center;
+    }
+
+    .logo_header{
+        width: 16em;
+    }
+
+    .logo_header:hover {
+        width: 17em;
+    }
+
+    /* FIM DO HEADER */
+
+
+    /* INICIO BANNER */
+
+    .cadastro_times{
+        height: 30em;
+    }
+
+    .escudo{
+        background-size: 22em;
+    }
+
+    .flex_container{
+        width: 17em;
+        padding-top: 6.5em;
+    }
+
+    /* FIM BANNER */
+
+
+    /* INICIO FOOTER */
+
+    .flex_footer{
+        flex-wrap: wrap;
+    }
+
+    .logo_footer{
+        display: none;
+    }
+
+    .style_list h2 {
+        font-size: 19px;
+    }
+
+    .style_list ul li a {
+        font-size: 13px;
+    }
+
+    .mid_footer {
+        width: 13em;
+        align-items: center;
+        justify-content: center;
+        height: 5em;
+    }
+
+    .mid_footer form {
+        width: 12.5em;
+    }
+
+    .input_email {
+        width: 10em;
+    }
+
+    .input_submit {
+        width: 5em;
+    }
+
+    .redes_sociais_creditos_footer {
+        margin: 0 auto;
+        margin-top: 1em;
+    }
+}
+
+
+@media (max-width: 385px){
+
+}
