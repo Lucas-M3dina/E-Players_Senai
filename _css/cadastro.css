@@ -169,6 +169,7 @@
     color: #fff;
     border-spacing: 0;
     border: #fff solid 2px;
+    min-width: 268px;
 }
 
 .titulo_tabela{
@@ -200,7 +201,7 @@ footer{
 }
 
 .flex_footer{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -208,15 +209,17 @@ footer{
 
 }
 
+.style_list{
+    
+}
+
 .style_list h2{
     color: #fff; 
     font-family: 'Titillium Web', sans-serif;
     font-weight: bold;   
+    font-size: 21px;
 }
 
-/* .style_list ul{
-    list-style: disc !important;
-} */
 
 .style_list ul li a{
     color: #fff; 
@@ -233,11 +236,11 @@ footer{
 }
 
 .logo_footer{
-    width: 27em;
+    width: 100%;
 }
 
 .logo_footer:hover {
-    width: 28em;
+    width: 102%;
 }
 
 .mid_footer p{
@@ -260,6 +263,7 @@ footer{
     padding: 0 14px;
     text-align: center;
     border: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 .input_submit{
@@ -270,6 +274,7 @@ footer{
     background-color: #13169f;
     color: #fff;
     cursor: pointer;
+    border-radius: 0 3px 3px 0;
 }
 
 .redes_sociais_creditos_footer{
@@ -296,13 +301,9 @@ footer{
     justify-content: space-evenly;
 }
 
-.logos_redes img:hover {
-    width: 50px;
-}
-
 /* FIM DO FOOTER */
 
-@media (max-width: 420px){
+@media (max-width: 700px){
 
     /* HEADER */
 
@@ -339,7 +340,7 @@ footer{
     .conteudo_cadastro_jogador {
         width: 16em;
         padding-top: 5em;
-        height: 87%;
+        height: 83%;
     }
 
     .titulo_cadastro_jogador {
@@ -351,7 +352,7 @@ footer{
     }
 
     .conteudo_cadastro_jogador form {
-        height: 66%;
+        height: 71%;
     }
 
     .btn_cadastrar_usuario{
