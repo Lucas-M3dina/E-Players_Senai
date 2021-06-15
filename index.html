@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,24 +10,24 @@
     </head>
 
     <body>
-        <header class="header_principal">
-            <div class="container">
-                
-                <a href="#"> <img class="logo" src="_assets/logo.svg" alt="Logo EPlayers"> </a>
-
-                <nav class="menu_header">
+        <header>
+            <div class="container_header">
+                <a href="#">  <img src="./_assets/logo.svg" alt="Logo E-Players">  </a>
+                <nav>
                     <ul>
-                        <li> <a href="#">inicio</a> </li>
-                        <li> <a href="#">horários</a> </li>
-                        <li> <a href="#">campeonato</a> </li>
-                        <li> <a href="#">resultado</a> </li>
-                        <li> <a href="#">noticia</a> </li>
+                        <li> <a class="link_nav" href="#sidebar_proximos_jogos">horários</a> </li>
+                        <li> <a class="link_nav" href="#banner2">campeonato</a> </li>
+                        <li> <a class="link_nav" href="#">resultado</a> </li>
+                        <li> <a class="link_nav" href="#noticias">noticia</a> </li>
+                        <li> <a class="link_times" href="./cadastro_times.html">times</a> </li>
+                        <li> <a class="link_jogadores" href="./cadastro_jogador.html">jogadores</a> </li>
                     </ul>
                 </nav>
-            </div>  
+            </div>
         </header>
 
         <main>
+
             <section class="banner_principal">
                 <div class="container_banner">
                     <img class="imagem_banner" src="_assets/imagem_banner.png" alt="Banner FIFA">
@@ -39,8 +40,8 @@
                 </div>
             </section>
 
-            <section class="jogos">
-                <div class="container logos">
+            <section id="jogos" class="jogos">
+                <div class="container_logos logos">
                     <img class="f1rs" src="_assets/formula-1-logo.png" alt="Logo Formula 01">
                     <img class="lol" src="_assets/logo-lol.png" alt="Logo LOL">
                     <img class="cs" src="_assets/Counter-Strike-Logo.png" alt="Logo Cs">
@@ -49,29 +50,23 @@
                 </div>
             </section>
 
-            <section class="banner2">
-        
+            <section id="banner2" class="banner2">
                 <div class="retangulo">
                     <div class="container_banner2">
                         <div class="textos_banner2">
-                            
                             <h1>Como participar das ligas?</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc sed id semper risus in. Egestas dui id ornare arcu. Ut sem nulla pharetra diam sit. Quam pellentesque nec nam aliquam sem. Cras ornare arcu dui vivamus arcu felis. </p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc sed id semper risus in. Egestas dui id ornare arcu. Ut sem nulla pharetra diam sit. Quam pellentesque nec nam aliquam sem. Cras ornare arcu dui vivamus arcu felis.</p>
-                             
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc sed id semper risus in. Egestas dui id ornare arcu. Ut sem nulla pharetra diam sit. Quam pellentesque nec nam aliquam sem. Cras ornare arcu dui vivamus arcu felis.</p> 
                         </div>
                         
-                        <div class="imagem_banner2">
-                            
+                        <div class="imagem_banner2">  
                             <img class="personagem" src="_assets/img_banner2.png" alt="Personagem"> 
-                        
                         </div>
                     </div>
                 </div>
-   
             </section>
 
-            <section class="proximos_jogos">
+            <section id="proximos_jogos" class="proximos_jogos">
                 <div class="container_proximos_jogos">
                     <h2 class="aovivo">ao vivo</h2>
                     <p class="sk">SK</p>
@@ -95,56 +90,59 @@
                 </div>
             </section>
 
-            <section class="noticias">
-                <h2>Notícias</h2>
-                <div class="container_sidebar_noticia">
-                    <div class="container_noticia">
-                        <div class="fundo_noticia">
-                            <a href="#">
-                                <img src="_assets/player.jpg" alt="Foto da modelo">
-                                <h3>Título da notícia</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>
-                            </a>
+            <section id="noticias" class="noticias">
+                <div class="container_noticias_e_jogos">
+                    <div class="noticia">
+                        <div class="titulo_noticia">
+                            <h2>Noticias</h2>
                         </div>
-                        <div class="fundo_noticia">
-                            <a href="#">
-                                <img src="_assets/player.jpg" alt="Foto da modelo">
-                                <h3>Título da notícia</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>
-                            </a>
-                        </div>
-                        <div class="fundo_noticia">
-                            <a href="#">
-                                <img src="_assets/player.jpg" alt="Foto da modelo">
-                                <h3>Título da notícia</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>
-                            </a>
-                        </div>
-                        <div class="fundo_noticia">
-                            <a href="#">
-                                <img src="_assets/player.jpg" alt="Foto da modelo">
-                                <h3>Título da notícia</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>
-                            </a>
+                        <div class="container_cards">
+                            <div class="noticia_card">
+                                <a href="#">
+                                    <img src="_assets/player.jpg" alt="Foto da modelo">
+                                    <h3>Título da notícia</h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>
+                                </a>
                             </div>
-                        <div class="fundo_noticia">
-                            <a href="#">
-                                <img src="_assets/player.jpg" alt="Foto da modelo">
-                                <h3>Título da notícia</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p> 
-                            </a>
+                            <div class="noticia_card">
+                                <a href="#">
+                                    <img src="_assets/player.jpg" alt="Foto da modelo">
+                                    <h3>Título da notícia</h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>
+                                </a>
                             </div>
-                        <div class="fundo_noticia">
-                            <a href="#">
-                                <img src="_assets/player.jpg" alt="Foto da modelo">
-                                <h3>Título da notícia</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>
-                            </a>
+                            <div class="noticia_card">
+                                <a href="#">
+                                    <img src="_assets/player.jpg" alt="Foto da modelo">
+                                    <h3>Título da notícia</h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>
+                                </a>
+                            </div>
+                            <div class="noticia_card">
+                                <a href="#">
+                                    <img src="_assets/player.jpg" alt="Foto da modelo">
+                                    <h3>Título da notícia</h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>
+                                </a>
+                                </div>
+                            <div class="noticia_card">
+                                <a href="#">
+                                    <img src="_assets/player.jpg" alt="Foto da modelo">
+                                    <h3>Título da notícia</h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p> 
+                                </a>
+                                </div>
+                            <div class="noticia_card">
+                                <a href="#">
+                                    <img src="_assets/player.jpg" alt="Foto da modelo">
+                                    <h3>Título da notícia</h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                
 
-                    <aside class="sidebar_proximos_jogos">
+                    <aside id="sidebar_proximos_jogos" class="sidebar_proximos_jogos">
                         <div class="container_proximos">
                             <h2>Próximos Jogos</h2>
                             <div class="sidebar_fundo">
@@ -210,16 +208,14 @@
 
                     </aside>
                 </div>
-
             </section>
 
-            
         </main>
 
         <footer>
             <div class="flex_footer">
                 <div class="style_list">
-                    <h2>Páginas</h2>
+                    <h3>Páginas</h3>
                     <ul>
                         <li> <a href="#">Inicio</a> </li>
                         <li> <a href="#">Campeonatos</a> </li>
@@ -251,4 +247,5 @@
             </div>
         </footer>
     </body>
+
 </html>

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,66 +10,69 @@
 
 }
 
-
-
 /* HEADER */
 
-.header_principal{
-    background-color: #1E1C21;
-}
+    header{
+        background-color: #1E1C21;
+        height: 4.5em;
+        display: flex;
+        align-items: center;
+    }
+    
+    header .container_header{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    header nav{
+        display: flex;
+        align-items: center;
+        width: 55%;
+    }
 
-.container{
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    height: 87px;
-}
+    header nav ul{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
 
-.logo{
-    width: 339px;
-    padding: 20px 0;
-}
+    header .link_nav{
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        color: #fff;
+    }
 
-.logo:hover {
-    width: 345px;
-}
+    header .link_nav:hover {
+        color: #007fff;
+        border-bottom: #007fff solid 2px;
+        padding-bottom: 2px;
+    }
 
-.menu_header{
-    display: flex;
-    justify-content: flex-end;
-    width: 80%;
-    height: 100%;
-}
+    header .link_times{
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        color: #fff;
+    }
 
-.menu_header ul{
-    display: flex;
-    justify-content: space-between;
-    width: 73%;
-}
+    header .link_times:hover {
+        color: #9D3A3A;
+        border-bottom: #9D3A3A solid 2px;
+        padding-bottom: 2px;
+    }
 
-.menu_header ul li{
-    display: flex;
-    align-items: center;
-}
+    header .link_jogadores{
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        color: #fff;
+    }
 
-.menu_header ul li a{
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    color: #fff;
-    font-size: 18px;
-    height: 100%;
-    display: flex;
-    align-items: center;;
-    padding: 0 8px;
-}
-
-.menu_header ul li a:hover{
-    background-color: #D2D2D2;
-    color: #1E1C21;
-    font-weight: 700;
-}
-
+    header .link_jogadores:hover {
+        color: #262fff;
+        border-bottom: #262fff solid 2px;
+        padding-bottom: 2px;
+    }
 /* FIM DO HEADER */
 
 
@@ -80,18 +84,18 @@
     height: 32em;
 }
 
-.container_banner{
+.banner_principal .container_banner{
     width: 90%;
     margin: 0 auto;   
     display: flex;
 }
 
-.imagem_banner{
-    width: 33em;
+.banner_principal .imagem_banner{
+    max-width: 33em;
     padding: 21px 0;
 }
 
-.textos_banner_principal{
+.banner_principal .textos_banner_principal{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -101,23 +105,22 @@
     min-width: 396px;
 }
 
-.textos_banner_principal h1{
+.banner_principal .textos_banner_principal h1{
     font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
     color: #fff;
     font-size: 58px;
-    /* width: 80%; */
     height: 74px;
 }
 
-.textos_banner_principal span{
+.banner_principal .textos_banner_principal span{
     font-size: 21px;
     font-family: 'Titillium Web', sans-serif;
     color: #fff;
 
 }
 
-.textos_banner_principal a{ 
+.banner_principal .textos_banner_principal a{ 
     font-family: 'Titillium Web', sans-serif;
     color: #fff;
     background-color: #1949DE;
@@ -126,10 +129,10 @@
     width: auto;
     padding: 11px 39px;
     border-radius: 10px;
-    margin-top: 60px;
+    margin-top: 7%;
 }
 
-.textos_banner_principal a:hover{
+.banner_principal .textos_banner_principal a:hover{
     background-color: #505B7D;
     font-weight: bold;
 }
@@ -144,31 +147,26 @@
     background-color: #1E1C21;
 }
 
-.logos{
-    padding: 18px 0;
+.jogos .container_logos{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.jogos .logos{
+    padding: 5px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.f1rs{
-    height: 45px;
+.jogos .vava{
+    margin-top: 1%;
 }
 
-.lol{
-    height: 69px;
-}
-
-.vava{
-    height: 37px;
-    margin-top: 14px;
-}
-
-.fifa{
-    height: 38px;
-    margin-left: 17px;
-    margin-top: 12px;
-}
+.jogos .fifa{
+    max-height: 42px;
+    margin-top: 0.3%;
+} 
 
 /* FIM DA SESSÃO COM JOGOS */
 
@@ -183,7 +181,7 @@
     height: 545px;
 }
 
-.retangulo{
+.banner2 .retangulo{
     display: flex;
     transform: skewY(-3deg);
     background: rgba(0, 0, 0, 0.86);
@@ -192,28 +190,28 @@
     margin-top: 3%;
 }
 
-.container_banner2{
+.banner2 .container_banner2{
     display: flex;
-    width: 80%;
+    width: 90%;
     height: 100%;
     margin: 0 auto;
 }
 
-.textos_banner2{
+.banner2 .textos_banner2{
     display: flex;
     flex-direction: column;
     transform: skewY(3deg);
     margin-top: 2.25em;
 }
 
-.textos_banner2 h1{
+.banner2 .textos_banner2 h1{
     color: #fff;
     font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
     font-size: 39px;
 }
 
-.textos_banner2 p{
+.banner2 .textos_banner2 p{
     color: #fff;
     font-family: 'Titillium Web', sans-serif;
     font-size: 17px;
@@ -222,85 +220,89 @@
     margin: 8px 0;
 }
 
-.alinhando{
+.banner2 .alinhando{
     width: 80%;
     margin: 0 auto;
 }
 
-.imagem_banner2{
+.banner2 .imagem_banner2{
     display: flex;
     justify-content: flex-end;
     width: 80%;
 }
 
-.personagem{
-    width: 75%;
+.banner2 .personagem{
+    width: 68%;
     height: 116%;
-    min-width: 297px;
 }
 
 /* FIM DO SEGUNDO BANNER */
 
+
+
+/* SESSÃO AOVIVO */
+
 .proximos_jogos{
     background-color: #000000;
     width: 100%;
-    height: 6em;
+    height: 5em;
 }
 
 .container_proximos_jogos{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding: 10px 0;
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .aovivo{
     color: #fff;
     font-family: 'Titillium Web', sans-serif;
     text-transform: uppercase;
-    font-size: 26px;
+    font-size: 21px;
     width: 3em;
 }
 
 .container_proximos_jogos p{
     color: #fff;
     font-family: 'Titillium Web', sans-serif;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 
 .logo_times_jogos{
-    width: 51px;
-    height: 51px;
+    width: 4%;
 }
 
 .sk{
-    margin: 0 8px;
+    margin: 0 1%px;
     font-family: 'Titillium Web', sans-serif;
-    width: 46px;
 }
 
 .vs{
-    margin: 0px 8px;
+    margin: 0px 1%;
 }
 
 .embreve{
     font-family: 'Titillium Web', sans-serif;
     text-transform: uppercase;
-    font-size: 26px;
+    font-size: 21px;
     color:#fff;
     border-left: #fff solid 2px;
     width: 3.1em;
-    margin-left: 1.2em;
-    margin-right: 2.3em;
-    padding-left: 1em;
+    margin-left: 1%;
+    margin-right: 3%;
+    padding-left: 2%;
 } 
 
 .margin_proximos_jogos{
-    margin-left: 2em;
+    margin-left: 2%;
 }
+
+/* FIM DA SESSÃO AO VIVO */
 
 
 
@@ -308,49 +310,54 @@
 
 .noticias{
     background-color: #1E1C21;
-    
+    height: auto;
 }
 
-.noticias h2{
-    color: #fff;
-    padding-top: 1em;
-    width: 80%;
+.container_noticias_e_jogos{
+    width: 90%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.noticia{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_noticia h2{
+    margin: 1em 0;
+    color: #fff;
     font-family: 'Titillium Web', sans-serif;
 }
 
-.container_sidebar_noticia{
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    justify-content: space-between;
-    height: 56em;
-}
-
-.container_noticia{
-    width: 80%;
+.container_cards{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 1.8em;
-    min-width: 718px;
-    }
-
-
-.fundo_noticia{
-    display: flex;
-    flex-direction: column;
-    width: 14em;
-    height: 24em;
-    background: linear-gradient(180deg, #2F2F2F 41.67%, #020202 100%);
-    box-shadow: 0px 0px 12px 15px rgba(0, 0, 0, 0.25);
 }
 
-.fundo_noticia img{
+.noticia_card{
+    display: flex;
+    flex-direction: column;
+    max-width: 15em;
+    height: 23em;
+    background: linear-gradient(180deg, #2F2F2F 41.67%, #020202 100%);
+    box-shadow: 0px 0px 12px 15px rgba(0, 0, 0, 0.25);
+    margin-bottom: 5em;
+}
+
+.noticia_card:hover {
+    text-decoration: underline;
+    /* color: #fff; */
+    text-decoration-color: #fff;
+}
+
+.noticia_card img{
     width: 100%;
 }
 
-.fundo_noticia a h3{
+.noticia_card a h3{
     font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
     font-size: 20px;
@@ -358,29 +365,21 @@
     text-align: center;
 }
 
-.sublinhado:hover {
-    text-decoration: underline;
-    color: #fff;
-}
-
-.fundo_noticia a p{
+.noticia_card a p{
     font-family: 'Titillium Web', sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     color: #fff;
     padding: 0 11px;
-    
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
 }
 
-.fundo_noticia *:hover {
-    text-decoration: underline;
-    color: #fff;
-    text-decoration-color: #fff;
-}
 
 .sidebar_proximos_jogos{
     background-color: #1E1C21;
     width: 29%;
-    margin-left: 2em;
+    margin-left: 4.5%;
 }
 
 .container_proximos{
@@ -388,10 +387,10 @@
 }
 
 .container_proximos h2{
-    margin-bottom: 1em;
-    margin-top: -2.33em;
+    margin: 1em 0;
     color: #fff;
     font-family: 'Titillium Web', sans-serif;
+    text-align: center;
 }
 
 .sidebar_fundo{
@@ -406,12 +405,14 @@
     display: flex;
     flex-direction: column;
     padding: 3em;
-    height: 51.12em;
+    align-items: center;
 }
 
 .jogos_sidebar{
     display: flex;
     align-items: center;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .jogos_sidebar p{
@@ -437,7 +438,7 @@ footer{
 }
 
 .flex_footer{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -449,15 +450,13 @@ footer{
     
 }
 
-.style_list h2{
+.style_list h3{
     color: #fff; 
     font-family: 'Titillium Web', sans-serif;
     font-weight: bold;   
+    font-size: 21px;
 }
 
-/* .style_list ul{
-    list-style: disc !important;
-} */
 
 .style_list ul li a{
     color: #fff; 
@@ -474,11 +473,11 @@ footer{
 }
 
 .logo_footer{
-    width: 27em;
+    width: 100%;
 }
 
 .logo_footer:hover {
-    width: 28em;
+    width: 102%;
 }
 
 .mid_footer p{
@@ -501,6 +500,7 @@ footer{
     padding: 0 14px;
     text-align: center;
     border: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 .input_submit{
@@ -511,6 +511,7 @@ footer{
     background-color: #13169f;
     color: #fff;
     cursor: pointer;
+    border-radius: 0 3px 3px 0;
 }
 
 .redes_sociais_creditos_footer{
@@ -535,8 +536,4 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-}
-
-.logos_redes img:hover {
-    width: 50px;
 }

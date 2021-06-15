@@ -147,7 +147,8 @@
 
 .lista_jogadores{
     background-color: #1E1C21;
-    height: 24em;
+    height: auto;
+    padding-bottom: 3em;
 }
 
 .container_lista_jogadores{
@@ -203,7 +204,7 @@ footer{
 }
 
 .flex_footer{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -211,15 +212,17 @@ footer{
 
 }
 
+.style_list{
+    
+}
+
 .style_list h2{
     color: #fff; 
     font-family: 'Titillium Web', sans-serif;
     font-weight: bold;   
+    font-size: 21px;
 }
 
-/* .style_list ul{
-    list-style: disc !important;
-} */
 
 .style_list ul li a{
     color: #fff; 
@@ -236,11 +239,11 @@ footer{
 }
 
 .logo_footer{
-    width: 27em;
+    width: 100%;
 }
 
 .logo_footer:hover {
-    width: 28em;
+    width: 102%;
 }
 
 .mid_footer p{
@@ -263,6 +266,7 @@ footer{
     padding: 0 14px;
     text-align: center;
     border: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 .input_submit{
@@ -273,6 +277,7 @@ footer{
     background-color: #13169f;
     color: #fff;
     cursor: pointer;
+    border-radius: 0 3px 3px 0;
 }
 
 .redes_sociais_creditos_footer{
@@ -297,10 +302,6 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-}
-
-.logos_redes img:hover {
-    width: 50px;
 }
 
 /* FIM DO FOOTER */
